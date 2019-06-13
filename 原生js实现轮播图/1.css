@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+}
+#father-box1{
+    width:300px;
+    height:300px;
+    position:relative;
+    top:100px;
+    left: 100px;
+    overflow: hidden;
+}
+#img{
+    width: 1500px;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    font-size: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    transition: 1s;
+}
+#img div{
+    width:300px;
+    height:300px;
+}
+.img1{
+    background-color: brown;
+}
+.img2{
+    background-color: burlywood;
+}
+.img3{
+    background-color: cadetblue;
+}
+.img4{
+    background-color: chocolate;
+}
+.img5{
+    background-color: crimson;
+}
+
+#father-box2{
+    font-size: 25px;
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    top:235px;
+    left:100px;
+}
+#btn1{
+    float:left;
+}
+#btn2{
+    float:right;
+}
+
+#father-box3{
+    width:300px;
+    height:20px;
+    position: absolute;
+    top:410px;
+    left:100px;
+    display: flex;
+    justify-content: space-around;
+}
+#father-box3 div{
+    border: 1px solid rgb(9, 100, 100);
+    width:20px;
+    height: 20px;
+    background-color:  rgb(183, 206, 206);
+    border-radius: 10px;
+}
